@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <!-- head -->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+    <!-- og -->
+  <meta property='og:type' content='website'>
+  <meta property='og:title' content='PON DESIGN'>
+  <title>CONTACT - お問い合わせ | PON DESIGN</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+   rel="stylesheet">
+  <script src="https://kit.fontawesome.com/41b1f8d62e.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet"
+   href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/css/swiper.min.css">
+  <link rel="stylesheet" href="css/destyle.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="img/icon-192x192.png">
+  <link rel="apple-touch-icon" href="img/apple-touch-icon-180x180.png">
+  <link rel="icon" href="img/favicon.jpg">
+</head>
+  <!-- body -->
+<body>
+    <!-- header -->
+  <header class="header">
+      <!-- logo -->
+    <h1 class="logo"><a href="." class="logo__link"><img class="logo__img" src="img/logo.svg" alt="PON DESIGN"></a></h1>
+      <!-- nav -->
+    <div class="header-gnav">
+      <nav class="gnav">
+        <ul class="gnav__list">
+          <li class="gnav__item"><a href="news.html" class="gnav__link">news</a></li>
+          <li class="gnav__item"><a href="service.html" class="gnav__link">service</a></li>
+          <li class="gnav__item"><a href="works.html" class="gnav__link">works</a></li>
+          <li class="gnav__item"><a href="company.html" class="gnav__link">company</a></li>
+          <li class="gnav__item"><a href="recruit.html" class="gnav__link">recruit</a></li>
+          <li class="gnav__item"><a href="contact.html" class="gnav__link">contact</a></li>
+        </ul>
+      </nav>
+      <button type="button" class="c-btn-menu js-btn-menu">
+        <span class="btn-menu__line"></span>
+      </button>
+    </div>
+  </header>
+    <!-- sub-hero -->
+  <div class="sub-hero">
+    <div class="sub-hero__inner">
+      <h2 class="c__title">contact
+        <span class="c__sub-title">お問い合わせ</span>
+      </h2>
+    </div>
+  </div>
+    <!-- breadcrumb -->
+  <div class="breadcrumb">
+    <div class="inner">
+    <ol itemscope itemtype="https://schema.org/BreadcrumbList" class="breadcrumb__list">
+      <!-- 1つめ -->
+      <li itemprop="itemListElement" itemscope
+          itemtype="https://schema.org/ListItem" class="breadcrumb__item">
+        <a itemprop="item" href="." class="breadcrumb__link">
+            <span itemprop="name">home</span>
+        </a>
+        <meta itemprop="position" content="1" />
+      </li>
+      <!-- 2つめ -->
+      <li itemprop="itemListElement" itemscope
+          itemtype="https://schema.org/ListItem" class="breadcrumb__item">
+        <span itemprop="item" href="contact.html">
+            <span itemprop="name">contact</span>
+        </span>
+        <meta itemprop="position" content="2" />
+      </li>
+    </ol>
+    </div>
+  </div>
+    <!-- main -->
+  <main class="contents">
+      <!-- contact-form -->
+    <section class="contact-form section">
+      <div class="contact-form__inner inner">
+        <div class="contact-form__lead">
+          Webサイトの制作のご依頼やお見積りなど、<br class="c-sp-only">お気軽にご相談ください。
+        </div>
+        <div class="contact-form__body">
+          <form class="form">
+            <div class="form__item">
+              <div class="form__title">お問い合わせ種別<span class="form__require">*必須</span></div>
+              <span class="form__radio">
+                <input type="radio" id="type01" name="type" value="お仕事のご依頼・ご相談" checked>
+                <label for="type01">お仕事のご依頼・ご相談</label>
+              </span>
+              <span class="form__radio">
+                <input type="radio" id="type02" name="type" value="お見積りのご依頼">
+                <label for="type02">お見積りのご依頼</label>
+              </span>
+              <span class="form__radio">
+                <input type="radio" id="type03" name="type" value="採用について">
+                <label for="type03">採用について</label>
+              </span>
+              <span class="form__radio">
+                <input type="radio" id="type04" name="type" value="その他">
+                <label for="type04">その他</label>
+              </span>
+            </div>
+            <div class="form__item">
+              <label class="form__title" for="name">お名前<span class="form__require">*必須</span></label>
+              <input type="text" id="name" name="name" required class="form__input">
+            </div>
+            <div class="form__item">
+              <label class="form__title" for="company">会社名<span class="form__require">*必須</span></label>
+              <input type="text" id="company" name="company" required class="form__input">
+            </div>
+            <div class="form__item">
+              <label class="form__title" for="mail">メールアドレス<span class="form__require">*必須</span></label>
+              <input type="text" id="mail" name="mail" required class="form__input">
+            </div>
+            <div class="form__item">
+              <label class="form__title" for="tel">電話番号<span class="form__note">（半角数字ハイフンなし）</span></label>
+              <input type="tel" id="tel" name="tel" class="form__input">
+            </div>
+            <div class="form__item">
+              <label class="form__title" for="comment">お問い合わせ内容</label>
+              <textarea id="comment" name="comment" placeholder="お問い合わせ内容を具体的にご記入くださいませ。" class="form__textarea"></textarea>
+            </div>
+            <div class="form__item">
+              <label class="form__title" for="select">PON DESIGNをどちらでお知りになりましたか？<span class="form__require">*必須</span></label>
+              <select id="select" name="select" required class="form__select">
+                <option value="">選択してください</option>
+                <option value="Google/Yahoo検索">Google/Yahoo検索</option>
+                <option value="SNS">SNS</option>
+                <option value="ブログ">ブログ</option>
+                <option value="友人や知人">友人や知人</option>
+                <option value="その他">その他</option>
+              </select>
+            </div>
+            <div class="submit__link">
+              <button class="c-btn" type="submit">送信する</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+    <!-- footer -->
+  <footer class="footer">
+    <div class="footer-nav">
+      <nav class="fnav">
+        <ul class="fnav__list">
+          <li class="fnav__item"><a href="." class="fnav__link">home</a></li>
+          <li class="fnav__item"><a href="news.html" class="fnav__link">news</a></li>
+          <li class="fnav__item"><a href="service.html" class="fnav__link">service</a></li>
+          <li class="fnav__item"><a href="works.html" class="fnav__link">works</a></li>
+          <li class="fnav__item"><a href="company.html" class="fnav__link">company</a></li>
+          <li class="fnav__item"><a href="recruit.html" class="fnav__link">recruit</a></li>
+          <li class="fnav__item"><a href="contact.html" class="fnav__link">contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <p class="copyright">&copy;PON DESIGN</p>
+  </footer>
+    <!-- page-top -->
+  <div class="page-top">
+    <a href="#" class="page-top__link"><i class="fas fa-arrow-up" aria-hidden="true"></i></a>
+  </div>
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
+
